@@ -21,7 +21,7 @@ function loadData() {
 
     $body.append('<img class="bgimg" src="'+streetViewUrl+'">');
 
-    var nyViewUrl = 'https://api.nytsssimes.com/svc/search/v2/articlesearch.json';
+    var nyViewUrl = 'https://api.nytimes.com/svc/search/v2/articlesearch.json';
 
     nyViewUrl += '?' + $.param({
       'api-key': "a17d7862ce024b38af5fddfe6ab7bf08",
